@@ -154,7 +154,7 @@
 
 .schools-2-heading {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 0;
 }
 /* .experiencePage-subheadings {
