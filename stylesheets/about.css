@@ -143,16 +143,6 @@
   color: #ffffff;
 }
 
-.aboutPage-languages span{
-  grid-column: 2;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-self: flex-start;
-  margin-left: 15%;
-  color: #848484;
-}
-
 .aboutPage-icons {
   display: flex;
   flex-direction: row;
