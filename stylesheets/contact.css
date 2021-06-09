@@ -357,7 +357,7 @@
   }
 
   .contactPage-button{
-    padding: 3% 28%;
+    padding: 3% 25%;
   }
   .contactPage-form-details {
     margin-top: 10%;
@@ -385,7 +385,7 @@
 
   .contactPage-form textarea{
     font-family: Montserrat, sans-serif;
-    max-width: 250px;
+    max-width: 200px;
   }
   
   .contactPage-icons {
