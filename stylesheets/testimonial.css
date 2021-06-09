@@ -58,26 +58,26 @@
   margin-right: -10px;
 }
 
-#testimonialPage h2 {
+#testimonialPage h4 {
   color: white;
   justify-self: center;
   align-self: flex-end;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 100%;
+  font-size: 22px;;
 }
 
-#testimonialPage h2 span {
+#testimonialPage h4 span {
   color: #848484;
 }
 
-#testimonialPage h3 {
+#testimonialPage h5 {
   color: rgb(104, 103, 103);
   justify-self: center;
   align-self: center;
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 17px;
   text-align: center;
 }
 
@@ -85,6 +85,7 @@
   color: white;
   background-color: none;
   font-style: italic;
+  font-size: 13px;
 }
 
 .testimonialPage-testimonials h3 {
@@ -182,18 +183,18 @@
     margin-right: -5%;
   }
 
-  #testimonialPage h2 {
+  #testimonialPage h4 {
     justify-self: center;
     align-self: center;
     font-size: 110%;
   }
 
-  #testimonialPage h2 span {
+  #testimonialPage h4 span {
     color: #848484;
     font-size: 110%;
   }
 
-  #testimonialPage h3 {
+  #testimonialPage h5 {
     font-size: 70%;
   }
 
@@ -207,6 +208,18 @@
   .testimonialPage-testimonials h3 {
     color: white;
     font-size: 90%;
+  }
+
+  .experiencePage-items h4 {
+    font-size: 22px;
+  }
+  
+  .experiencePage-items h5 {
+    font-size: 19px;
+  }
+  
+  .experiencePage-items h6 {
+    font-size: 14px;
   }
 
   .testimonialPage-testimonials {
