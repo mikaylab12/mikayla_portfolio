@@ -244,6 +244,14 @@
   font-size: 100%;
 }
 
+.aboutPage-details span{
+  color: #ffffff;
+}
+
+.aboutPage-languages span{
+  color: #ffffff;
+}
+
 .location {
   padding: 15px 20px;
   border-radius: 50%;

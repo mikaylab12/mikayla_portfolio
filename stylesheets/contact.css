@@ -121,6 +121,7 @@
   margin: 0;
   padding: 0;
   grid-row: 1;
+  padding: 20px;
 }
 
 
@@ -194,7 +195,7 @@
   font-family: sans-serif;
   text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
   display: flex;
-  font-size: 100px;
+  font-size: x-large;
   justify-content: left;
 }
 

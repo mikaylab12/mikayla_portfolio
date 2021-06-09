@@ -20,7 +20,7 @@
   align-self: flex-start;
   text-transform: uppercase;
   color: #848484;
-  align-self: center;
+  /* align-self: center; */
   font-size: 75px;
   margin-top: 20%;
   margin-bottom: 3%;
@@ -30,7 +30,7 @@
 .testimonialPage-main-heading span {
   color: white;
   margin-left: 30px;
-  text-shadow: 3px 2px 2px #848484;
+  /* text-shadow: 3px 2px 2px #848484; */
 }
 
 .owl-carousel {
@@ -142,6 +142,11 @@
   margin-right: 30px;
   max-height: 100vh;
   max-width: 60vw;
+}
+
+
+.testimonialPage-words q {
+  margin-left: 7%;
 }
 
 @media screen and (max-width: 1000px) {

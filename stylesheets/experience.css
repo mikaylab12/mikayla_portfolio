@@ -193,6 +193,7 @@
 
 .schools {
   margin-left: 12%;
+  
 }
 .school-1 {
   margin-top: 30px;
@@ -259,7 +260,7 @@
   /* margin: 10px; */
   align-self: center;
   justify-content: center;
-  width: 100%;
+  width: 75%;
 }
 
 @media screen and (max-width: 1000px) {
