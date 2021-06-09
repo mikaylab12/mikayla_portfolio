@@ -122,6 +122,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
+  margin-top: 2%;
 }
 
 .aboutPage-details {
@@ -243,7 +244,7 @@
 }
 
 .afrik{
-  margin-left: 31%;
+  margin-left: 31.2%;
   color: #848484;
 }
 
