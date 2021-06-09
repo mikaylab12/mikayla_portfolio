@@ -193,7 +193,7 @@
 }
 
 .schools {
-  margin-left: 12%;
+  margin-left: 7%;
   
 }
 .school-1 {
@@ -201,7 +201,7 @@
 }
 
 .jobs {
-  margin-right: 12%;
+  margin-right: 7%;
 }
 
 .schools h4 {
@@ -264,7 +264,7 @@
   /* margin: 10px; */
   align-self: center;
   justify-content: center;
-  width: 95%;
+  width: 90%;
 }
 
 .experiencePage-items h4 {
