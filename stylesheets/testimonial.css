@@ -88,7 +88,7 @@
   font-size: 13px;
 }
 
-.testimonialPage-testimonials h3 {
+.testimonialPage-testimonials h5 {
   color: white;
   size: 15px;
 }
@@ -205,7 +205,7 @@
     font-size: 80%;
   }
 
-  .testimonialPage-testimonials h3 {
+  .testimonialPage-testimonials h5 {
     color: white;
     font-size: 90%;
   }
@@ -215,7 +215,7 @@
   }
   
   .experiencePage-items h5 {
-    font-size: 19px;
+    font-size: 16px;
   }
   
   .experiencePage-items h6 {
