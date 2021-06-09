@@ -563,13 +563,13 @@ body {
   }
 
   .homePage-headings h1 {
-    font-size: 150%;
+    font-size: 180%;
     color: white;
     align-self: center;
   }
 
   .homePage-headings h3 {
-    font-size: 200%;
+    font-size: 150%;
     margin-top: 60px;
     padding-top: 20px;
     white-space: nowrap;
