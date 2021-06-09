@@ -181,7 +181,7 @@
   border: none;
   outline: none;
   padding: 3% 40%;
-  margin-top: 3%;
+  margin-top: 2.85%;
   /* margin-bottom: 5px; */
   /* /* margin-left: 10px; */
   margin-left: 5%
@@ -267,7 +267,7 @@
 .location {
   padding: 15px 20px;
   border-radius: 50%;
-  border: 1px solid white;1
+  border: 1px solid white;
 }
 
 .phone {

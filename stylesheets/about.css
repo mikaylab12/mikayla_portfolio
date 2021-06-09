@@ -242,6 +242,11 @@
   color: #ffffff;
 }
 
+.afrik{
+  margin-left: 18%;
+  color: #848484;
+}
+
 .location {
   padding: 15px 20px;
   border-radius: 50%;
@@ -260,8 +265,9 @@
   border: 1px solid white;
 }
 
-.afrik {
-  margin-left: ;
+.afrik span{
+  margin-left: 2%;
+  color: #848484;
 }
 
 @media screen and (max-width: 800px) {
