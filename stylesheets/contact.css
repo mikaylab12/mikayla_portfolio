@@ -352,17 +352,19 @@
   }
 
   .contactPage-heading {
-    font-size: 200%;
+    font-size: 350%;
     margin-bottom: 10%;
   }
 
   .contactPage-button{
     padding: 3% 25%;
   }
+
   .contactPage-form-details {
     margin-top: 10%;
     padding-top: 5%;
     padding-bottom: 5%;
+    margin-right: 0;
   }
 
   .contactPage-info {
@@ -374,7 +376,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 90%;
+    width: 100%;
   }
 
   .contactPage-group {
@@ -385,7 +387,7 @@
 
   .contactPage-form textarea{
     font-family: Montserrat, sans-serif;
-    max-width: 200px;
+    max-width: 150px;
   }
   
   .contactPage-icons {
