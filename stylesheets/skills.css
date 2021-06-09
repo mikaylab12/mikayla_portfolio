@@ -1,0 +1,517 @@
+#skillsPage {
+  max-width: 100vw;
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)),
+    url("/images/lundudno2.jpeg");
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skillsPage-heading {
+  color: white;
+  /* text-shadow: 3px 2px 1px #848484; */
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 50px;
+  /* margin-bottom: 50px; */
+  /* max-height: 30px; */
+}
+
+.skillsPage-heading span {
+  color: #848484;
+  /* text-shadow: 1px 2px 1px white; */
+}
+
+.skillsPAge-allSkills {
+  display: flex;
+  flex-direction: column;
+}
+
+.skillsPage-hard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* align-self: center; */
+  /* margin-top: -30px; */
+  margin-right: 200px;
+}
+
+.skillsPage-hard h3 {
+  align-self: flex-start;
+  margin-right: 3%;
+  margin-top: 40px;
+  color: #848484;
+  /* text-shadow: 1px 2px 1px white; */
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+.skillsPage-hard span {
+  color: white;
+  /* text-shadow: 3px 2px 1px #848484; */
+}
+
+.skillsPage-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  /* margin-left: -150px; */
+}
+
+.skillsPage-icon {
+  align-self: center;
+  font-size: 35px;
+  text-transform: uppercase;
+  max-width: 300px;
+  line-height: 30px;
+  max-height: 150px;
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  border-radius: 35px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin: 30px;
+}
+
+/* .skillsPage-icon:hover {
+  background-color: transparent;
+  color: #848484;
+  border-color: #848484;
+} */
+
+.skillsPage-iconGroup {
+  position: static;
+  padding: 0;
+  margin: 0px;
+  /* If you want dots under the hoverable text */
+}
+
+.skillsPage-iconText {
+  text-shadow: none;
+}
+
+/* Tooltip text */
+.skillsPage-iconGroup .skillsPage-iconText {
+  visibility: hidden;
+  width: 120px;
+  font-size: 18px;
+  margin-top: 30px;
+  /* margin-left: -150px; */
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 50px;
+  padding: 10px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 500;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.skillsPage-iconGroup:hover .skillsPage-iconText {
+  visibility: visible;
+  width: 15vw;
+  margin-top: -10px;
+  margin-left: 0px;
+  padding-left: 10px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: #848484;
+  border: 2px dotted #848484;
+  text-shadow: none;
+}
+
+.skillsPage-iconGroup {
+  position: static;
+  /* If you want dots under the hoverable text */
+}
+
+.skillsPage-soft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  margin-top: -40px;
+}
+
+.skillsPage-soft h3 {
+  align-self: flex-end;
+  margin-right: 3%;
+  margin-top: 50px;
+  color: #848484;
+  /* text-shadow: 1px 2px 1px white; */
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+.skillsPage-soft span {
+  color: white;
+  /* text-shadow: 3px 2px 1px #848484; */
+}
+
+.skillsPage-qualities {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  margin-top: 30px;
+  font-size: 35px;
+  margin-right: -80px;
+}
+
+.skillsPage-quality {
+  align-self: center;
+  font-size: 35px;
+  text-transform: uppercase;
+  max-width: 300px;
+  line-height: 30px;
+  max-height: 150px;
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  border-radius: 35px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin: 30px;
+}
+
+.skillsPage-quality {
+  position: static;
+  /* border-bottom: 1px solid white;  */
+  /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.skillsPage-quality .skillsPage-qualityText {
+  visibility: hidden;
+  width: 120px;
+  font-size: 18px;
+  margin-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+  border: 2px solid #ffffff;
+  border-radius: 50px;
+  padding: 10px;
+  text-shadow: none;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 500;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.skillsPage-quality:hover .skillsPage-qualityText {
+  visibility: visible;
+  width: 15vw;
+  margin-top: 40px;
+  margin-left: -70px;
+  padding-left: 10px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: #848484;
+  border: 2px dotted #848484;
+  text-shadow: none;
+}
+
+.skillsPage-iconGroup {
+  text-shadow: none;
+}
+
+@media screen and (max-width: 800px) {
+  #skillsPage {
+    width: 100%;
+    height: 100%;
+  }
+
+  .skillsPage-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skillsPage-heading {
+    color: white;
+    /* text-shadow: 3px 2px 1px #848484; */
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 200%;
+    margin-bottom: 9%;
+    /* max-height: 30px; */
+  }
+
+  .skillsPage-hard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    margin-top: -30px;
+    /* margin-left: -15%; */
+    margin-right: -40%;
+  }
+
+  .skillsPage-hard h3 {
+    align-self: center;
+    margin-left: -35%;
+    margin-top: 14%;
+    font-size: 35px;
+  }
+
+  /* .skillsPage-hard span {
+    color: white;
+    text-shadow: 3px 2px 1px #848484;
+  } */
+
+  .skillsPage-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    margin-left: 20%;
+  }
+
+  .skillsPage-icon {
+    align-self: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    max-width: 300px;
+    line-height: 30px;
+    max-height: 150px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 30px;
+  }
+
+  .skillsPage-iconText {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    font-size: 45px;
+    max-width: 150px;
+    line-height: 100px;
+    max-height: 150px;
+    border: none;
+    border-radius: 50%;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin: 30px;
+    text-decoration: none;
+  }
+
+  /* .skillsPage-icon:hover {
+    background-color: transparent;
+    color: #848484;
+    border-color: #848484;
+  } */
+
+  /* .skillsPage-iconGroup {
+    /* display: flex;
+    justify-content: center; */
+  /* position: static;
+    padding: 0;
+    margin: 0px; */
+  /* If you want dots under the hoverable text */
+
+  .skillsPage-iconText {
+    text-shadow: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -50%;
+    /* row-gap: 50%; */
+  }
+
+  /* Tooltip text */
+  .skillsPage-iconGroup .skillsPage-iconText {
+    visibility: visible;
+    width: 15vw;
+    margin-left: -30%;
+    /* margin-top: -10px;
+    margin-left: 0px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #848484;
+    border: none;
+    text-shadow: none;
+
+    /* Position the tooltip text - see examples below! */
+    position: none;
+    z-index: 50;
+  }
+
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .skillsPage-iconGroup:hover .skillsPage-iconText {
+    visibility: visible;
+    width: 15vw;
+    margin-left: -20%;
+    /* margin-top: -10px;
+    margin-left: 0px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #848484;
+    border: none;
+    text-shadow: none;
+  }
+
+  .skillsPage-iconGroup {
+    position: none;
+    /* If you want dots under the hoverable text */
+  }
+
+  .skillsPage-soft {
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    margin-top: -40px;
+  }
+
+  .skillsPage-soft h3 {
+    align-self: center;
+    /* margin-right: 8%; */
+    margin-top: 50px;
+    color: #848484;
+    font-size: 35px;
+    margin-left: 10%;
+    text-transform: uppercase;
+  }
+
+  .skillsPage-soft span {
+    color: white;
+  }
+
+  .skillsPage-qualities {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    font-size: 35px;
+    color: #848484;
+    margin-top: 30px;
+    margin-right: 80%;
+  }
+
+  .skillsPage-quality {
+    align-self: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    max-width: 300px;
+    line-height: 30px;
+    max-height: 150px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 30px;
+  }
+
+  .skillsPage-quality {
+    position: none;
+    /* border-bottom: 1px solid white;  */
+    /* If you want dots under the hoverable text */
+  }
+
+  /* Tooltip text */
+  .skillsPage-quality .skillsPage-qualityText {
+    visibility: visible;
+    width: 15vw;
+    margin-left: 50%;
+    margin-top: -10%;
+    /* margin-top: -10px;
+    margin-left: 0px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #848484;
+    border: none;
+    text-shadow: none;
+
+    /* Position the tooltip text - see examples below! */
+    position: none;
+    z-index: 50;
+  }
+
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .skillsPage-quality:hover .skillsPage-qualityText {
+    visibility: visible;
+    width: 15vw;
+    margin-left: 50%;
+    margin-top: -10%;
+    /* margin-top: -10px;
+    margin-left: 0px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: none;
+    text-shadow: none;
+  }
+
+  .skillsPage-iconGroup {
+    text-shadow: none;
+    display: flex;
+    flex-direction: row;
+  }
+}
