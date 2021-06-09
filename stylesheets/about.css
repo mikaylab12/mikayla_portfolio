@@ -334,7 +334,7 @@
     display: flex;
     flex-direction: row;
     width: 100vw;
-    margin-left: 27%;
+    margin-left: 28%;
 
   }
 
@@ -370,13 +370,12 @@
   .aboutPage-iconInfo {
     display: flex;
     flex-direction: row;
-    justify-content: center
+    justify-content: center;
     text-align: center;
     /* font: 10px; */
   }
 
   .aboutPage-icons i {
-    margin-left: 3%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -386,7 +385,6 @@
   }
 
   .aboutPage-iconInfo i {
-    margin-left: -15%;
     color: #ffffff;
     display: flex;
     flex-direction: row;
