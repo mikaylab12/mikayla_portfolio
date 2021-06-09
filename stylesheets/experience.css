@@ -70,7 +70,7 @@
   height: 170vh;
   display: grid;
   width: 100%;
-  grid-template-columns: 1fr 10% 1fr;
+  grid-template-columns: 1fr 5% 1fr;
   grid-template-rows: 2% 5%  1fr 5%  1fr 5% 1fr;
   animation: change1 10s infinite;
   row-gap: 1%;
