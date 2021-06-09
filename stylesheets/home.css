@@ -452,8 +452,9 @@ body {
 
   .top-navbar-initials {
     font-size: 250%;
-    margin-left: 1%;
+    margin-left: 3%;
     margin-right: -83%;
+    margin-top: 3%;
   }
 
   .top-navbar-links-and-button {
@@ -549,19 +550,11 @@ body {
     justify-content: center;
     margin-top: 80px;
   }
-<<<<<<< HEAD
 
   .homePage-links {
     margin-bottom: 25px;
   }
 
-=======
-  
-.homePage-links {
-        margin-bottom: 25px;
-    }
-  
->>>>>>> f57c7b06d4115e9a75e3641a7b2e6204462419e3
   .homePage-headings {
     display: flex;
     flex-direction: column;
@@ -576,7 +569,7 @@ body {
   }
 
   .homePage-headings h3 {
-    font-size: 103%;
+    font-size: 200%;
     margin-top: 60px;
     padding-top: 20px;
     white-space: nowrap;
@@ -607,7 +600,7 @@ body {
       width: 0;
     }
     to {
-      width: 100%;
+      width: 98%;
     }
   }
 
@@ -625,7 +618,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-self: center;
-    margin-left: -15px;
+    margin-left: 3%x;
   }
 
   .homePage-description p {
