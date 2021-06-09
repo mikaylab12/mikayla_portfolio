@@ -322,13 +322,34 @@
   .aboutPage-text h2 {
     font-size: 50px;
     margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .aboutPage-languages {
+    /* margin-left: 2%; */
+    margin-left: 0%;
+  }
+
+  .afrik {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    margin-left: 25%;
+
+  }
+
+  .aboutPage-extraDetails {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
   }
 
   .aboutPage-text h2 span {
     color: white;
-    text-shadow: 3px 3px 3px #242424;
+    /* text-shadow: 3px 3px 3px #242424; */
     margin-right: 5px;
-    text-shadow: 3px 2px 1px #848484;
+    /* text-shadow: 3px 2px 1px #848484; */
   }
 
   .aboutPage-pText {
