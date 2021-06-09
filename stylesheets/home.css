@@ -454,7 +454,7 @@ body {
     font-size: 250%;
     margin-left: 3%;
     margin-right: -83%;
-    margin-top: 10%;
+    margin-top: 20%;
   }
 
   .top-navbar-links-and-button {
@@ -569,14 +569,14 @@ body {
   }
 
   .homePage-headings h3 {
-    font-size: 110%;
+    font-size: 130%;
     margin-top: 60px;
     padding-top: 20px;
     white-space: nowrap;
     color: white;
     align-self: center;
     margin-right: -0px;
-    margin-left: 50x;
+    margin-left: 3%;
   }
 
   .line {
@@ -619,7 +619,7 @@ body {
     justify-content: center;
     align-self: center;
     text-align: center;
-    /* margin-left: 3%; */
+    margin-left: 3%;
   }
 
   .homePage-description p {
