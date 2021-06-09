@@ -97,7 +97,7 @@
   color: #848484;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 80px;
   margin-bottom: 30px;
   /* text-shadow: 1px 2px 1px white; */
   /* border-bottom: 2px dashed white; */
@@ -231,7 +231,7 @@
 
 .aboutPage-text p {
   color: #848484;
-  font-size: 100%;
+  font-size: 85%;
 }
 
 .aboutPage-details span{
@@ -258,6 +258,10 @@
   padding: 15px 18px;
   border-radius: 50%;
   border: 1px solid white;
+}
+
+.afrik {
+  margin-left: ;
 }
 
 @media screen and (max-width: 800px) {
