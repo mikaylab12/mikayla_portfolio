@@ -70,7 +70,7 @@
   display: grid;
   width: 100%;
   grid-template-columns: 1fr 10% 1fr;
-  grid-template-rows: 2% 1fr 1fr 1fr;
+  grid-template-rows: 2% 2% 1fr 2% 1fr 2% 1fr;
   animation: change1 10s infinite;
   row-gap: 1%;
   /* background-position: center; */
@@ -129,27 +129,27 @@
 
 .job-1 {
   grid-column: 3;
-  grid-row: 2;
+  grid-row: 3;
 }
 
 .job-2 {
   grid-column: 3;
-  grid-row: 3;
+  grid-row: 5;
 }
 
 .job-3 {
   grid-column: 3;
-  grid-row: 4;
+  grid-row: 7;
 }
 
 .school-1 {
   grid-column: 1;
-  grid-row: 2;
+  grid-row: 3;
 }
 
 .school-2 {
   grid-column: 1;
-  grid-row: 3;
+  grid-row: 5;
 }
 
 .schools-2-heading {
