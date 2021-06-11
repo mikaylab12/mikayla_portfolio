@@ -433,6 +433,10 @@
     flex-direction: column;
     gap: 0;
   }
+
+  .experiencePage-items h4 {
+    font-size: 18px;
+  }
   /* h1 {
     padding-top: 30%;
     display: ruby;
