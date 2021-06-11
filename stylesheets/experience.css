@@ -291,6 +291,18 @@
     justify-content: flex-start;
     align-items: flex-start;
   }
+  .experiencePage-main-heading{
+  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+  font-size: 250%
+  }
+
+  .experiencePage-main-heading span{
+    white-space: nowrap;
+    font-size: 110%
+  }
+
   .experiencePage-container {
     grid-template-columns: 10% 1fr;
     /* grid-template-rows: 10% 1fr 1fr 1fr 10% 1fr 1fr; */
@@ -310,9 +322,21 @@
     flex-direction: column;
     font-size: 100%;
     margin-left: -3%;
-    justify-content: flex-start;
-    align-items: flex-start;
   }
+
+  .experiencePage-subheading1{
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    font-size: 180%;
+  }
+  .experiencePage-subheading2 {
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    font-size: 180%;
+  }
+
   .school-1 {
     margin-top: 0;
   }
