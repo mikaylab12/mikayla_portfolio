@@ -287,7 +287,7 @@
     display: flex;
     flex-direction: column;
     font-size: 100%;
-    margin-left: -3%;
+    margin-left: -5%;
     justify-content: flex-start;
     align-items: flex-start;
   }
@@ -311,13 +311,16 @@
     background-position: center;
     height: 120%;
   }
+
   .experiencePage-line {
     grid-column-start: 1;
   }
+
   .experiencePage span{
     display: flex;
     flex-direction: column;
   }
+  
   .experiencePage-headings {
     display: flex;
     flex-direction: column;
@@ -358,7 +361,6 @@
 
   .experiencePage-subheading1 {
     grid-column: 2;
-    margin-left: -3%;
     grid-row: 5;
     order: 4;
     justify-content: center;
