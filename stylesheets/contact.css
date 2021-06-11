@@ -354,6 +354,8 @@
   .contactPage-heading {
     font-size: 250%;
     margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
   }
 
   .contactPage-button{
@@ -387,7 +389,7 @@
 
   .contactPage-form textarea{
     font-family: Montserrat, sans-serif;
-    max-width: 150px;
+    max-width: 200px;
   }
   
   .contactPage-icons {
