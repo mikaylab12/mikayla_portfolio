@@ -353,6 +353,7 @@
 
   .contactPage-heading {
     font-size: 250%;
+    white-space: nowrap;
     /* margin-bottom: 10%; */
     display: flex;
     flex-direction: column;
