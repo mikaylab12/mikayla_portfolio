@@ -191,7 +191,7 @@
 @media screen and (max-width: 1000px) {
   #portfolioPage {
     height: 150%;
-    width: 100%;
+    width: 100%;padding-top: 2%;
   }
 
   .portfolioPage-cards-container {
