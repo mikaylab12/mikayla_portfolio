@@ -300,12 +300,13 @@
 
   .experiencePage-main-heading span{
     white-space: nowrap;
-    font-size: 100%
+    font-size: 100%;
+    margin-left:0;
   }
 
   .experiencePage-container {
     grid-template-columns: 10% 1fr;
-    /* grid-template-rows: 10% 1fr 1fr 1fr 10% 1fr 1fr; */
+    grid-template-rows: 7% 1fr 1fr 1fr 7% 1fr 1fr;
     background-size: cover;
     background-position: center;
     height: 120%;
@@ -332,6 +333,7 @@
     padding-bottom: 0;
     margin-bottom: 0;
     margin-left: 0;
+    grid-row: 5;
   }
   .experiencePage-subheading2 {
     display: flex;
@@ -341,6 +343,7 @@
     padding-bottom: 0;
     margin-bottom: 0;
     margin-left: 0;
+    grid-row: 1;
   }
 
   .experiencePage-subheading2 {
