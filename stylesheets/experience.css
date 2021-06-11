@@ -356,6 +356,7 @@
     flex-direction: column;
     margin-left: 0;
     grid-row: 1;
+    margin-right: 5px;
     /* order: 0; */
   }
 
