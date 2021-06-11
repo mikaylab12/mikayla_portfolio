@@ -362,7 +362,7 @@
     grid-row: 5;
     order: 4;
     justify-content: center;
-    align-self: center;
+    align-items: center;
   }
 
   .school-1 {
