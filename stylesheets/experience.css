@@ -1,6 +1,6 @@
 #experiencePage {
   max-width: 100vw;
-  height: 130vh;
+  height: 30vh;
   animation: change1 10s infinite;
   font-family: Montserrat, sans-serif;
   text-transform: uppercase;
@@ -67,7 +67,7 @@
 }
 
 .experiencePage-container {
-  height: 170vh;
+  height: 230vh;
   display: grid;
   width: 100%;
   grid-template-columns: 1fr 2% 1fr;
