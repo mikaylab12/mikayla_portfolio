@@ -145,7 +145,7 @@ body {
 
 .sideNavbar-initials {
   color: #ffffff;
-  font-size: 48px;
+  font-size: 50px;
   font-weight: bold;
   align-self: center;
   margin-left: 18px;
@@ -156,7 +156,7 @@ body {
 
 .sideNavbar-initials span {
   color: #848484;
-  margin-left: -15px;
+  /* margin-left: -15px; */
   text-shadow: 1px 2px 1px white;
 }
 
