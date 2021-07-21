@@ -91,37 +91,61 @@ function toggleSideNavbar() {
 //   }
 // ];
 
-function createCard(card) {
-  let createdCard = ` <div class="portfolioPage-cards" data-aos="fade-down" techStack=${card.techStack} >
-      <img src="${card.imgURL}" alt="${card.imgALT}">
-      <div> 
-      <h3>${card.title}</h3>
-      <h4>${card.techStack}</h4>
-      <p>${card.description}</p>
-      </div>
-      <div class="portfolioPage-links">
-        <a href="${card.githubURL}" target="_blank">GitHub</a>
-        <a href="${card.liveProjectURL}" target="_blank">Live</a>        
-      </div>
-    </div>`;
-  return createdCard;
+// function createCard(card) {
+//   let createdCard = ` <div class="portfolioPage-cards" data-aos="fade-down" techStack=${card.techStack} >
+//       <img src="${card.imgURL}" alt="${card.imgALT}">
+//       <div> 
+//       <h3>${card.title}</h3>
+//       <h4>${card.techStack}</h4>
+//       <p>${card.description}</p>
+//       </div>
+//       <div class="portfolioPage-links">
+//         <a href="${card.githubURL}" target="_blank">GitHub</a>
+//         <a href="${card.liveProjectURL}" target="_blank">Live</a>        
+//       </div>
+//     </div>`;
+//   return createdCard;
+// }
+
+// function renderCards() {
+//   let projectContainer = document.querySelector(".portfolioPage-cards-container");
+//   for (project of projects) {
+//     let card = createCard(project);
+//     projectContainer.innerHTML += card;
+//   }
+// }
+
+// renderCards();
+
+let links = document.getElementsByClassName('sideNavbar-link');
+
+for (let i = 0; i < links.length; i++) {
+  links[i].addEventListener('click', close);
 }
 
-function renderCards() {
-  let projectContainer = document.querySelector(".portfolioPage-cards-container");
-  for (project of projects) {
-    let card = createCard(project);
-    projectContainer.innerHTML += card;
+function close(){
+  toggleSideNavbar()
+};
+
+document.addEventListener("click", function (event) {
+  // Gets element that was clicked on
+  let currentTarget = event.target;
+  // This is the whole menu
+  let menuElement = document.getElementById("sideNavbar");
+  // Check if clicked inside of whole menu
+  let isClickInside = menuElement.contains(event.target);
+  
+  if (!isClickInside) {
+    document.getElementById("navbar-menu").checked = false;
+    toggleSideNavbar();
   }
-}
-
-renderCards();
+});
 
 function filterCards(category) {
-  let cards = document.getElementsByClassName(".portfolioPage-cards");
+  let cards = document.getElementsByClassName("portfolioPage-cards");
   if (category == "All") {
     for (card of cards) {
-      card.style.display = "block";
+      card.style.display = "flex";
     }
     return;
   }
@@ -133,6 +157,6 @@ function filterCards(category) {
   let selectedCards = document.querySelectorAll(`[techStack='${category}']`);
 
   for (card of selectedCards) {
-    card.style.display = "block";
+    card.style.display = "flex";
   }
 }
