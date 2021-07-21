@@ -7,89 +7,89 @@ function toggleSideNavbar() {
 
 
 
-let projects = [
-  {
-    imgURL: "./images/WhatsApp Image 2021-04-30 at 15.00.27.jpeg",
-    imgALT: "Contact Form Preview",
-    title: "CONTACT FORM",
-    techStack: "HTML/CSS",
-    description: "Below are the Live and Coding links to this project:",
-    githubURL: "https://github.com/mikaylab12/contact-form.git",
-    liveProjectURL: "https://lucid-johnson-fc94ee.netlify.app/"
-  },
-  {
-    imgURL: "./images/conditionals.png",
-    imgALT: "Conditionals Task Preview",
-    title: "CONDITIONALS TASK",
-    techStack: "PYTHON3",
-    description: "Below are the Live and Coding links to this project:",
-    githubURL: "https://github.com/mikaylab12/python-conditional-task.git",
-    liveProjectURL: "https://replit.com/@mikaylab12/python-conditionals-task#main.py"
-  },
-  {
-    imgURL: "https://picsum.photos/300?random=3",
-    imgALT: "Testimonial Slider Preview",
-    title: "TESTIMONIAL SLIDER",
-    techStack: "HTML/CSS",
-    description: "Below are the Live and Coding links to this project:",
-    githubURL: "https://github.com/mikaylab12/slider.git",
-    liveProjectURL: "https://priceless-leakey-e01dda.netlify.app/"
-  },
-  {
-    imgURL: "./images/Screenshot from 2021-06-01 14-56-55.png",
-    imgALT: "BMI Calculator Preview",
-    title: "BMI CALCULATOR",
-    techStack: "PYTHON3",
-    description: "Below are the Live and Coding links to this project:",
-    githubURL: "https://github.com/mikaylab12/BMI-calculator.git",
-    liveProjectURL: "https://replit.com/@mikaylab12/BMI-Calculator#main.py"
-  },
-  {
-    imgURL: "./images/Screenshot from 2021-06-01 14-56-55.png",
-    imgALT: "MY TIMELINE Preview",
-    title: "MY TIMELINE",
-    techStack: "HTML/CSS",
-    description: "Below are the Live and Coding links to this project:",
-    githubURL: "https://github.com/mikaylab12/timeline.git",
-    liveProjectURL: "https://heuristic-allen-9659fd.netlify.app/"
-  },
-  {
-    imgURL: "./images/python2.png",
-    imgALT: "Fibonacci Task Preview",
-    title: "FIBONACCI TASK",
-    techStack: "PYTHON3",
-    description: "Below are the Live and Coding links to this project:",
-    githubURL: "https://github.com/mikaylab12/fibonacci_task.git",
-    liveProjectURL: "https://replit.com/@mikaylab12/fibonaccitask#main.py"
-  },
-  {
-    imgURL: "./images/sneaker-site.png",
-    imgALT: "Sneaker Site Preview",
-    title: "SNEAKER SITE",
-    techStack: "PYTHON3",
-    description: "Below are the Live and Coding links to this project:",
-    githubURL: "https://github.com/mikaylab12/Sneaker-Store.git",
-    liveProjectURL: "https://stoic-babbage-6d0cd1.netlify.app/"
-  },
-  {
-    imgURL: "./images/adding-numbers.png",
-    imgALT: "Adding Numbers Preview",
-    title: "ADDING NUMBERS",
-    techStack: "PYTHON3",
-    description: "Below are the Live and Coding links to this project:",
-    githubURL: "https://github.com/mikaylab12/tkinter_adding_numbers.git",
-    liveProjectURL: "https://replit.com/@mikaylab12/tkinteraddingnumbers#main.py"
-  },
-  {
-    imgURL: "https://picsum.photos/300?random=5",
-    imgALT: "My Project 8",
-    title: "My Project Title 5",
-    techStack: "Python",
-    description: "Below are the Live and Coding links to this project:",
-    githubURL: "#",
-    liveProjectURL: "#"
-  }
-];
+// let projects = [
+//   {
+//     imgURL: "./images/WhatsApp Image 2021-04-30 at 15.00.27.jpeg",
+//     imgALT: "Contact Form Preview",
+//     title: "CONTACT FORM",
+//     techStack: "HTML/CSS",
+//     description: "Below are the Live and Coding links to this project:",
+//     githubURL: "https://github.com/mikaylab12/contact-form.git",
+//     liveProjectURL: "https://lucid-johnson-fc94ee.netlify.app/"
+//   },
+//   {
+//     imgURL: "./images/conditionals.png",
+//     imgALT: "Conditionals Task Preview",
+//     title: "CONDITIONALS TASK",
+//     techStack: "PYTHON3",
+//     description: "Below are the Live and Coding links to this project:",
+//     githubURL: "https://github.com/mikaylab12/python-conditional-task.git",
+//     liveProjectURL: "https://replit.com/@mikaylab12/python-conditionals-task#main.py"
+//   },
+//   {
+//     imgURL: "https://picsum.photos/300?random=3",
+//     imgALT: "Testimonial Slider Preview",
+//     title: "TESTIMONIAL SLIDER",
+//     techStack: "HTML/CSS",
+//     description: "Below are the Live and Coding links to this project:",
+//     githubURL: "https://github.com/mikaylab12/slider.git",
+//     liveProjectURL: "https://priceless-leakey-e01dda.netlify.app/"
+//   },
+//   {
+//     imgURL: "./images/Screenshot from 2021-06-01 14-56-55.png",
+//     imgALT: "BMI Calculator Preview",
+//     title: "BMI CALCULATOR",
+//     techStack: "PYTHON3",
+//     description: "Below are the Live and Coding links to this project:",
+//     githubURL: "https://github.com/mikaylab12/BMI-calculator.git",
+//     liveProjectURL: "https://replit.com/@mikaylab12/BMI-Calculator#main.py"
+//   },
+//   {
+//     imgURL: "./images/Screenshot from 2021-06-01 14-56-55.png",
+//     imgALT: "MY TIMELINE Preview",
+//     title: "MY TIMELINE",
+//     techStack: "HTML/CSS",
+//     description: "Below are the Live and Coding links to this project:",
+//     githubURL: "https://github.com/mikaylab12/timeline.git",
+//     liveProjectURL: "https://heuristic-allen-9659fd.netlify.app/"
+//   },
+//   {
+//     imgURL: "./images/python2.png",
+//     imgALT: "Fibonacci Task Preview",
+//     title: "FIBONACCI TASK",
+//     techStack: "PYTHON3",
+//     description: "Below are the Live and Coding links to this project:",
+//     githubURL: "https://github.com/mikaylab12/fibonacci_task.git",
+//     liveProjectURL: "https://replit.com/@mikaylab12/fibonaccitask#main.py"
+//   },
+//   {
+//     imgURL: "./images/sneaker-site.png",
+//     imgALT: "Sneaker Site Preview",
+//     title: "SNEAKER SITE",
+//     techStack: "PYTHON3",
+//     description: "Below are the Live and Coding links to this project:",
+//     githubURL: "https://github.com/mikaylab12/Sneaker-Store.git",
+//     liveProjectURL: "https://stoic-babbage-6d0cd1.netlify.app/"
+//   },
+//   {
+//     imgURL: "./images/adding-numbers.png",
+//     imgALT: "Adding Numbers Preview",
+//     title: "ADDING NUMBERS",
+//     techStack: "PYTHON3",
+//     description: "Below are the Live and Coding links to this project:",
+//     githubURL: "https://github.com/mikaylab12/tkinter_adding_numbers.git",
+//     liveProjectURL: "https://replit.com/@mikaylab12/tkinteraddingnumbers#main.py"
+//   },
+//   {
+//     imgURL: "https://picsum.photos/300?random=5",
+//     imgALT: "My Project 8",
+//     title: "My Project Title 5",
+//     techStack: "Python",
+//     description: "Below are the Live and Coding links to this project:",
+//     githubURL: "#",
+//     liveProjectURL: "#"
+//   }
+// ];
 
 function createCard(card) {
   let createdCard = ` <div class="portfolioPage-cards" data-aos="fade-down" techStack=${card.techStack} >
@@ -108,7 +108,7 @@ function createCard(card) {
 }
 
 function renderCards() {
-  let projectContainer = document.querySelector(".project-container");
+  let projectContainer = document.querySelector(".portfolioPage-cards-container");
   for (project of projects) {
     let card = createCard(project);
     projectContainer.innerHTML += card;
@@ -118,7 +118,7 @@ function renderCards() {
 renderCards();
 
 function filterCards(category) {
-  let cards = document.getElementsByClassName("project-card");
+  let cards = document.getElementsByClassName(".portfolioPage-cards");
   if (category == "All") {
     for (card of cards) {
       card.style.display = "block";
