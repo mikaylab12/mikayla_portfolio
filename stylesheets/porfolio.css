@@ -205,12 +205,7 @@
   border-radius: 7%;
 }
 
-.disabled {
-  color: darkgrey;
-  background-color: blue;
-}
-
-.disabled a:hover {
+.not-available:hover {
   cursor: not-allowed;
 }
 
