@@ -205,6 +205,15 @@
   border-radius: 7%;
 }
 
+.disabled {
+  color: darkgrey;
+  background-color: blue;
+}
+
+.disabled a:hover {
+  cursor: not-allowed;
+}
+
 @media screen and (max-width: 1000px) {
   #portfolioPage {
     height: 150%;
