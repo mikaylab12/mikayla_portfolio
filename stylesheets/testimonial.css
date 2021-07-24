@@ -39,11 +39,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-right: 5px;
-  padding-left: 10px;
   height: 100vh;
   background: transparent;
   max-width: 100vw;
+  margin-left: 7vw;
 }
 
 .owl-stage {
@@ -54,8 +53,6 @@
   padding: 80px;
   padding-bottom: 18px;
   background-position: top;
-  margin-left: -25.5px;
-  margin-right: -10px;
 }
 
 #testimonialPage h4 {
