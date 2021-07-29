@@ -67,7 +67,7 @@
 }
 
 .experiencePage-container {
-  height: 100vh;
+  height: 50vh;
   display: grid;
   width: 100%;
   grid-template-columns: 1fr 2% 1fr;
