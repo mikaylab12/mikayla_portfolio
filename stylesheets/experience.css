@@ -73,7 +73,7 @@
   grid-template-columns: 1fr 2% 1fr;
   grid-template-rows: 2% 5%  1fr 5%  1fr 5% 1fr;
   animation: change1 10s infinite;
-  /* row-gap: 1%; */
+  row-gap: 0.5%;
   /* background-position: center; */
 }
 
