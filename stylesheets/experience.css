@@ -69,7 +69,7 @@
 .experiencePage-container {
   height: 50vh;
   display: grid;
-  width: 130%;
+  width: 150%;
   grid-template-columns: 1fr 2% 1fr;
   grid-template-rows: 2% 5%  1fr 5%  1fr 5% 1fr;
   animation: change1 10s infinite;
