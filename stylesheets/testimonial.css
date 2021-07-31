@@ -12,6 +12,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url(/images/orange2.jpeg);
 }
 
 .testimonialPage-main-heading {
@@ -42,12 +44,12 @@
   height: 100vh;
   background: transparent;
   max-width: 100vw;
-  margin-left: 7vw;
+  margin-left: 6vw;
 }
 
 .owl-stage {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-    url(/images/orange2.jpeg);
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url(/images/orange2.jpeg); */
   background-size: contain;
   background-position: center;
   padding: 80px;
