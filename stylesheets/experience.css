@@ -74,6 +74,7 @@
   grid-template-rows: 2% 5%  1fr 5%  1fr 5% 1fr;
   animation: change1 10s infinite;
   row-gap: 1%;
+  padding-bottom: 50px;
   /* background-position: center; */
 }
 
