@@ -56,8 +56,8 @@
 
 #aboutPage img {
   margin-top: 20px;
-  width: 400px;
-  height: 350px;
+  width: 450px;
+  height: 80%;
   object-fit: cover;
   border: 10px double #848484;
   margin-right: 50px;
@@ -89,7 +89,7 @@
 }
 
 .aboutPage-text {
-  margin-top: 8px;
+  margin-top: 10px;
 }
 
 .aboutPage-text h2 {
@@ -98,7 +98,7 @@
   text-transform: uppercase;
   font-weight: bold;
   font-size: 80px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   /* text-shadow: 1px 2px 1px white; */
   /* border-bottom: 2px dashed white; */
 }
@@ -114,11 +114,11 @@
   display: flex;
   flex-direction: column;
   font-size: 95%;
-  gap: 30px;
+  gap: 40px;
 }
 
 .aboutPage-extraDetails {
-  padding: 3%;
+  padding: 5%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
@@ -244,8 +244,11 @@
 }
 
 .afrik{
-  margin-left: 31.2%;
   color: #848484;
+}
+
+.afrik-span span{
+  animation: change1 10s infinite;
 }
 
 .location {

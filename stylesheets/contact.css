@@ -145,12 +145,18 @@
 }
 
 .contactPage-input {
-  background: rgba(37, 37, 37, 0.8);
+  /* background: rgba(37, 37, 37, 0.8);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px); */
+  /* border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18); */
+  background: rgba( 132, 132, 132, 0.95 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 20.0px );
+  -webkit-backdrop-filter: blur( 20.0px );
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
   color: white;
   font-size: small;
   border: none;
@@ -162,11 +168,17 @@
 }
 
 .contactPage-button {
-  background: rgba(37, 37, 37, 0.8);
+  /* background: rgba(37, 37, 37, 0.8);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px; */
+  background: rgba( 132, 132, 132, 0.95 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 20.0px );
+  -webkit-backdrop-filter: blur( 20.0px );
   border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
   display: flex;
   flex-direction: column;
   align-self: center;
@@ -197,7 +209,7 @@
   text-shadow: 4px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
-.contactPage--input::placeholder {
+.contactPage-input::placeholder {
   color: white;
   font-family: sans-serif;
   text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
