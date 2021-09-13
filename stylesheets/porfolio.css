@@ -75,8 +75,9 @@
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   /* flex: 1 1 150px; */
-  flex: 0 1 150px;
-  margin: 15px;
+  /* flex: 0 1 150px; */
+  width: 23%;
+  margin: 1%;
   padding-top: 0px;
   padding: 15px 15px;
   margin-bottom: 25px;
@@ -97,6 +98,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  /* height: 60vh; */
   /* margin: 5% 2%; */
 }
 
@@ -157,6 +159,7 @@
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid rgba(255, 255, 255, 0.18);
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   transition: all 0.3s ease-in;
 }
@@ -192,8 +195,10 @@
   border-top-left-radius: 10px;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
-  width: auto;
+  width: 19,5vw;
+  height: 30vh;
   object-fit: cover;
+  padding-top: 0;
 }
 
 #portfolioPage p {
@@ -242,6 +247,26 @@
     flex-direction: column;
     justify-content: flex-end;
     margin: 5% 2%;
+    width: 93%;
+    /* margin: 1%; */
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    margin: 0.5%;
+    max-width: 15%;
+    padding-bottom: 0;
+  }
+  
+  .button-container button{
+    font-size: 17px;
+    padding: 2%;
+    text-transform: uppercase;
+    background-color: #848484;
+    margin: 2%;
+    border-radius: 7%;
   }
 
   .portfolioPage-links a {

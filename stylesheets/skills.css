@@ -72,19 +72,19 @@
 
 .skillsPage-icon {
   align-self: center;
-  font-size: 35px;
+  font-size: 40px;
   text-transform: uppercase;
-  max-width: 350px;
+  max-width: 300px;
   line-height: 30px;
   max-height: 150px;
   text-decoration: none;
   color: white;
   border: 2px solid white;
-  border-radius: 32px;
+  border-radius: 35px;
   padding-left: 32px;
-  padding-right: 35px;
-  padding-bottom: 10px;
-  padding-top: 20px;
+  padding-right: 32px;
+  padding-bottom: 22px;
+  padding-top: 22px;
   margin: 30px;
 }
 
@@ -152,6 +152,7 @@
 
 .skillsPage-soft {
   display: flex;
+  margin-right: 3%;
   flex-direction: column;
   justify-content: flex-end;
   align-self: flex-end;
@@ -160,7 +161,6 @@
 
 .skillsPage-soft h3 {
   align-self: flex-end;
-  margin-right: 3%;
   margin-top: 50px;
   color: #848484;
   /* text-shadow: 1px 2px 1px white; */
@@ -194,10 +194,10 @@
   color: white;
   border: 2px solid white;
   border-radius: 35px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding-left: 31px;
+  padding-right: 31px;
+  padding-bottom: 21px;
+  padding-top: 21px;
   margin: 30px;
 }
 

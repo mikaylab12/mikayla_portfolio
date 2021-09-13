@@ -230,7 +230,10 @@
 .experiencePage-items p {
   color: white;
   margin-top: 7px;
-  font-size: 10px;
+  font-size: 13px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  text-transform: initial;
 }
 
 .experiencePage-items p span {

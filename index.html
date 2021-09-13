@@ -11,6 +11,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet">
     <title>Mikayla Beelders' Portfolio</title>
     <!-- My CSS Files -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
@@ -26,7 +29,6 @@
     src="https://kit.fontawesome.com/76a522a414.js"
     crossorigin="anonymous"
   ></script>
-  <!-- External Script -->
   <body>
     <!--<img class="homePage-img" src="./images/lundudno.jpeg" alt="" /> -->
 
@@ -36,37 +38,13 @@
         <div class="top-navbar-initials">
           <p>MB<span>.</span></p>
         </div>
-        <div class="top-navbar-links-and-button">
-          <!-- <div>
-            <ul class="top-navbar-links">
-              <li class="top-navbar-link-home">Home</li>
-              <li class="top-navbar-link"><a href="#aboutPage">About</a></li>
-              <li class="top-navbar-link"><a href="#skillsPage">Skills</a></li>
-              <li class="top-navbar-link">
-                <a href="#experiencePage">Experience</a>
-              </li>
-              <li class="top-navbar-link">
-                <a href="#portfolioPage">Projects</a>
-              </li>
-              <li class="top-navbar-link">
-                <a href="#testimonialPage">Testimonials</a>
-              </li>
-              <li class="top-navbar-link">
-                <a href="#contactPage">Contact</a>
-              </li>
-            </ul>
-          </div> -->
-          <div>
-            <button class="navbar-menu" onclick="toggleSideNavbar()">
-              <i class="fas fa-bars"></i>
-            </button>
-          </div>
-        </div>
+        <button class="navbar-menu" onclick="toggleSideNavbar()">
+          <i class="fas fa-bars"></i>
+        </button>
       </nav>
     </header>
     <!-- Side Nav Bar  -->
     <nav id="sideNavbar">
-      <div>
         <ul class="sideNavbar-links">
           <li class="sideNavbar-initials">MB <span>.</span></li>
           <li class="sideNavbar-link"><a href="#homePage">Home</a></li>
@@ -96,19 +74,8 @@
               <a href="#" class="sideNavbar-footer-link"><i class="fab fa-github"></i></a>
               <a href="#" class="sideNavbar-footer-link"><i class="fab fa-instagram"></i></a>
             </li> -->
-          </li>
+          <!-- </li> -->
         </ul>
-       </div>
-      
-      </div>
-      <!-- <footer>
-        <i class="far fa-copyright">Made by Mikayla Beelders</i>
-        <div class="footer-links">
-          <a href="#" class="footer-link"><i class="fab fa-codepen"></i></a>
-          <a href="#" class="footer-link"><i class="fab fa-github"></i></a>
-          <a href="#" class="footer-link"><i class="fab fa-instagram"></i></a>
-        </div>
-      </footer> -->
     </nav>
     <!-- Landing Page -->
     <div id="homePage">
@@ -143,7 +110,7 @@
           <img
             src="./images/Mikayla Beelders .JPG"
             alt="picture of Mikayla 
-          Beelders"
+            Beelders"
             data-aos="zoom-in"
           />
         </div>
@@ -163,18 +130,20 @@
           </div>
           <div class="aboutPage-extraDetails">
             <div class="aboutPage-details">
-              <p>• <span>Driver's License:</span>  Yes</p>
-              <p>• <span>Criminal Record:</span> No</p>
+              <p>• <span class="span">Driver's License:</span>  Yes</p>
+              <p>• <span class="span">Criminal Record:</span> No</p>
             </div>
             <div class="aboutPage-languages">
-              <p>• <span>Languages:</span>  English - Fluent</p>
-              <p class="afrik">• <span>Languages:</span>  Afrikaans - Proficient</p>
+              <p>•<span class="span">Languages: </span></p>
+              <p class="languages"><span>English - Fluent</span>
+                <span>Afrikaans - Proficient</span></p>
+              <!-- <p class="afrik">• <span class="afrik-span">Languages:</span>  Afrikaans - Proficient</p> -->
             </div>
           </div>
           <div class="aboutPage-icons">
             <div class="aboutPage-iconInfo email">
               <i class="fas fa-envelope envelope aboutPage-icon"></i>
-              <p class="aboutPage-icon-text">mikaylabeelders@gmail.com</p>
+              <a href="mailto:mikaylabeelders@gmail.com?" class="aboutPage-icon-text">mikaylabeelders@gmail.com</a>
             </div>
             <div class="aboutPage-iconInfo number">
               <i class="fas fa-phone-alt aboutPage-icon phone "></i>
@@ -414,7 +383,6 @@
                 <a href="https://github.com/mikaylab12/python-conditional-task.git" target="_blank">GitHub</a>
             </div>
            </div>
-         
         <!-- Third Card -->
         <div class="portfolioPage-cards" techStack="HTML/CSS">
         <img src="./images/Screenshot from 2021-05-03 11-42-48.png"alt="A preview of my testimonials">
@@ -518,7 +486,8 @@
                 <p>A lotto project allowing the user to choose numbers as well as displaying the user's winnings. It contains use of sound as well as sending the user an email with his/her winnings.</p>
             </div>
             <div class="portfolioPage-links">
-                <a href="https://replit.com/@mikaylab12/lottoEOMP-1#main.py" target="_blank"></a>Live</a>        
+                <a href="https://replit.com/@mikaylab12/lottoEOMP-1#main.py" target="_blank">
+                  Live</a>        
                 <a href="https://github.com/mikaylab12/lotto_EOMP.git" target="_blank">GitHub</a>
             </div>
            </div>
