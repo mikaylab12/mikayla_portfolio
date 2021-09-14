@@ -50,6 +50,7 @@
 .aboutPage-content {
   margin-right: 3%;
   margin-left: 3%;
+  height: 95%;
   display: flex;
   flex-direction: row;
 }
@@ -57,7 +58,7 @@
 #aboutPage img {
   margin-top: 20px;
   width: 450px;
-  height: 530px;
+  height: 100%;
   object-fit: cover;
   border: 10px double #848484;
   margin-right: 50px;
@@ -115,9 +116,9 @@
   flex-direction: column;
   font-family: 'Poppins', sans-serif;
   text-transform: initial;
-  font-size: 100%;
+  font-size: 130%;
   font-weight: bolder;
-  gap: 35px;
+  gap: 30px;
 }
 
 .aboutPage-extraDetails {
@@ -185,7 +186,7 @@
   flex-direction: row;
   /* align-items: center; */
   justify-content: space-between;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-left: 0px;
 }
 

@@ -378,6 +378,11 @@
 
   .contactPage-button{
     padding: 3% 25%;
+    padding: 3% 38.5%;
+  margin-top: 3.5%;
+  /* margin-bottom: 5px; */
+  /* /* margin-left: 10px; */
+  margin-left: 5%
   }
 
   .contactPage-form-details {
