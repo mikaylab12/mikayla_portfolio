@@ -130,6 +130,8 @@
 .contactPage-form textarea{
   font-family: Montserrat, sans-serif;
   font-size: small;
+  width: 450px; 
+  height: 163px
 }
 
 .contactPage-group {
@@ -211,11 +213,13 @@
 
 .contactPage-input::placeholder {
   color: white;
-  font-family: sans-serif;
   text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
   display: flex;
   font-size: medium;
   justify-content: left;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  text-transform: initial;
 }
 
 .contactPage-icons {
@@ -267,8 +271,9 @@
   color: #a5a5a5;
   font-size: 15px;
   align-self: center;
-  font-family: sans-serif;
-  font-weight: 590;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  text-transform: initial;
 }
 
 .contactPage-text p {
@@ -339,7 +344,7 @@
 .copyright {
   display: flex;
   justify-self: flex-end;
-  align-self: flex-end;
+  align-self: center;
 }
 
 @media screen and (max-width: 900px) {
@@ -364,7 +369,7 @@
   }
 
   .contactPage-heading {
-    font-size: 250%;
+    font-size: 350%;
     white-space: nowrap;
     /* margin-bottom: 10%; */
     display: flex;
@@ -402,7 +407,12 @@
 
   .contactPage-form textarea{
     font-family: Montserrat, sans-serif;
-    max-width: 201px;
+    max-width: 230px;
+  }
+
+  .contactPage-button {
+    width: 230px;
+    text-align: center;
   }
   
   .contactPage-icons {

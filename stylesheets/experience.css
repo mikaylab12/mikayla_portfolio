@@ -291,22 +291,25 @@
     display: flex;
     flex-direction: column;
     font-size: 100%;
-    margin-left: -5%;
+    margin-left: 0%;
     justify-content: flex-start;
     align-items: flex-start;
   }
+
   .experiencePage-main-heading{
-  white-space: nowrap;
-  display: flex;
-  margin-left: 0;
-  flex-direction: column;
-  font-size: 250%
+    white-space: nowrap;
+    display: flex;
+    margin-left: 10%;
+    flex-direction: column;
+    font-size: 250%;
+    padding: 0;
   }
 
   .experiencePage-main-heading span{
     white-space: nowrap;
     font-size: 100%;
     margin-left:0;
+    margin: 0;
   }
 
   .experiencePage-container {
@@ -329,25 +332,27 @@
   .experiencePage-headings {
     display: flex;
     flex-direction: column;
-    font-size: 100%;
-    margin-left: -3%;
+    font-size: 150%;
+    margin-left: 0%;
   }
 
   .experiencePage-subheading1{
     display: flex;
     flex-direction: column;
     white-space: nowrap;
-    font-size: 130%;
+    font-size: 35px;
     padding-bottom: 0;
     margin-bottom: 0;
     margin-left: 0;
     grid-row: 5;
   }
+
   .experiencePage-subheading2 {
     display: flex;
     flex-direction: column;
     white-space: nowrap;
-    font-size: 130%;
+    font-size: 160%;
+    text-align: center;
     padding-bottom: 0;
     margin-bottom: 0;
     margin-left: 0;
@@ -367,7 +372,7 @@
   .experiencePage-subheading1 {
     grid-column: 2;
     grid-row: 5;
-    font-size: 130%;
+    font-size: 160%;
     order: 4;
     justify-content: center;
     align-items: center;
@@ -426,7 +431,7 @@
   .experiencePage-line {
     grid-column: 1;
     grid-row-start: 1;
-    grid-row-end: 8;
+    grid-row-end: 9;
     justify-self: center;
     padding: 3.5px;
     margin: 10px;
